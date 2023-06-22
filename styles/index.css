@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    background-color: var(--base00);
+    color: var(--base05);
+}
+
+.logo-container {
+    font-family: Hack;
+    font-size: 1vw;
+    line-height: 1.3vw;
+}
+
+.logo-container .logo-blue-characters{
+    color: var(--base0d);
+}
+
+.logo-container .logo-brown-characters{
+    color: var(--base0f);
+}
+
+.logo-container .logo-dark-gray-characters{
+    color: var(--base03);
+}
+
+.logo-container .logo-green-characters{
+    color: var(--base0b);
+}
+
+.logo-container .logo-light-gray-characters{
+    color: var(--base04);
+}
+
+.logo-container .logo-magenta-characters{
+    color: var(--base0e);
+}
+
+.logo-container .logo-red-characters{
+    color: var(--base08);
+}
+
+.logo-container .logo-yellow-characters{
+    color: var(--base0a);
+}
+
+.logo-container .logo-white-characters{
+    color: var(--base05);
+}
+
+.logo-text-container {
+    color: var(--base03);
+    font-family: Hack;
+    font-size: 1vw;
+    line-height: 1.3vw;
+    margin-top: 2vw;
+    text-transform: uppercase;
+}
