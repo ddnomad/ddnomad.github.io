@@ -11,8 +11,8 @@ html, body {
 
 .logo-container {
     font-family: Hack;
-    font-size: 1vw;
-    line-height: 1.3vw;
+    font-size: max(1vw, 1vh);
+    line-height: max(1.3vw, 1.3vh);
 }
 
 .logo-container .logo-blue-characters{
@@ -54,8 +54,8 @@ html, body {
 .logo-text-container {
     color: var(--base03);
     font-family: Hack;
-    font-size: 1vw;
-    line-height: 1.3vw;
-    margin-top: 2vw;
+    font-size: max(1vw, 1vh);
+    line-height: max(1.3vw, 1.3vh);
+    margin-top: max(2vw, 2vh);
     text-transform: uppercase;
 }
