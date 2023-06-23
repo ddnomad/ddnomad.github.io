@@ -1,0 +1,63 @@
+@use 'sass:map';
+
+@use 'fonts';
+@use 'themes';
+
+
+@mixin colors($theme) {
+	--base00: #{map.get($theme, 'base00')};
+	--base01: #{map.get($theme, 'base01')};
+	--base02: #{map.get($theme, 'base02')};
+	--base03: #{map.get($theme, 'base03')};
+	--base04: #{map.get($theme, 'base04')};
+	--base05: #{map.get($theme, 'base05')};
+	--base06: #{map.get($theme, 'base06')};
+	--base07: #{map.get($theme, 'base07')};
+	--base08: #{map.get($theme, 'base08')};
+	--base09: #{map.get($theme, 'base09')};
+	--base0a: #{map.get($theme, 'base0a')};
+	--base0b: #{map.get($theme, 'base0b')};
+	--base0c: #{map.get($theme, 'base0c')};
+	--base0d: #{map.get($theme, 'base0d')};
+	--base0e: #{map.get($theme, 'base0e')};
+	--base0f: #{map.get($theme, 'base0f')};
+
+	--blue: #{map.get($theme, 'base0d')};
+	--brown: #{map.get($theme, 'base0f')};
+	--cyan: #{map.get($theme, 'base0c')};
+	--green: #{map.get($theme, 'base0b')};
+	--magenta: #{map.get($theme, 'base0e')};
+	--orange: #{map.get($theme, 'base09')};
+	--red: #{map.get($theme, 'base08')};
+	--yellow: #{map.get($theme, 'base0a')};
+
+	--background: #{map.get($theme, 'base00')};
+	--background-lighter: #{map.get($theme, 'base01')};
+
+	--foreground: #{map.get($theme, 'base05')};
+	--foreground-darker: #{map.get($theme, 'base04')};
+	--foreground-lighter: #{map.get($theme, 'base06')};
+}
+
+
+:root {
+	@include colors(themes.$base16-default-dark);
+}
+
+
+[data-theme='light'] {
+	@include colors(themes.$base16-default-light);
+}
+
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+
+html, body {
+	background-color: var(--background);
+	color: var(--foreground);
+}

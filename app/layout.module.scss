@@ -1,0 +1,29 @@
+.body {
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	max-width: 1280px;
+	min-height: 100dvh;
+}
+
+.footer {
+	height: 50px;
+	width: 100%;
+}
+
+.header {
+	align-items: flex-end;
+	display: flex;
+	height: 80px;
+	justify-content: flex-end;
+	width: 100%;
+}
+
+.headerContent {
+	background-color: #ac0000;
+	border-bottom: 1px solid #00ac00;
+}
+
+.main {
+	flex-grow: 1;
+}

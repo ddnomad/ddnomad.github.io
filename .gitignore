@@ -1,0 +1,29 @@
+# Build artefacts
+/build/
+/out/
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependencies
+/node_modules/
+
+# Environment files
+.env*
+!.env.example
+
+# Next.js
+/.next/
+next-env.d.ts
+
+# OS-specific junk files
+.DS_Store
+*.swp
+
+# Testing
+/coverage
+
+# Typescript
+*.tsbuildinfo

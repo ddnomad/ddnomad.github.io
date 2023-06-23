@@ -1,0 +1,56 @@
+// =================================================================================================
+// Base16 Default Dark
+// =================================================================================================
+// Author: Chris Kempson (http://chriskempson.com)
+// Source: https://github.com/chriskempson/base16-default-schemes
+// -------------------------------------------------------------------------------------------------
+// Base16 project by Chris Kempson: http://chriskempson.com/projects/base16/
+// Sass version by Tristano Ajmone: https://github.com/tajmone/Base16-Sass
+// -------------------------------------------------------------------------------------------------
+$base16-default-dark: (
+	base00: #181818, // Default background
+	base01: #282828, // Lighter background (used for status bars, line numbers and folding marks)
+	base02: #383838, // Selection background
+	base03: #585858, // Comments, invisibles, line highlighting
+	base04: #b8b8b8, // Dark foreground (used for status bars)
+	base05: #d8d8d8, // Default foreground, caret, delimiters, operators
+	base06: #e8e8e8, // Light foreground (not often used)
+	base07: #f8f8f8, // Light background (not often used)
+	base08: #ab4642, // Red. Variables, XML tags, markup link text, markup lists, diff deleted
+	base09: #dc9656, // Orange. Integers, boolean, constants, XML attributes, markup link URL
+	base0a: #f7ca88, // Yellow. Classes, markup bold, search text background
+	base0b: #a1b56c, // Green. Strings, inherited class, markup code, diff inserted
+	base0c: #86c1b9, // Cyan. Support, regular expressions, escape characters, markup quotes
+	base0d: #7cafc2, // Blue. Functions, methods, attribute IDs, headings
+	base0e: #ba8baf, // Magenta. Keywords, storage, selector, markup italic, diff changed
+	base0f: #a16946, // Brown. Deprecated, opening/closing embedded language tags (e.g. <?php ?>)
+);
+
+
+// =================================================================================================
+// Base16 Default Light
+// =================================================================================================
+// Author: Chris Kempson (http://chriskempson.com)
+// Source: https://github.com/chriskempson/base16-default-schemes
+// -------------------------------------------------------------------------------------------------
+// Base16 project by Chris Kempson: http://chriskempson.com/projects/base16/
+// Sass version by Tristano Ajmone: https://github.com/tajmone/Base16-Sass
+// -------------------------------------------------------------------------------------------------
+$base16-default-light: (
+	base00: #f8f8f8, // Default background
+	base01: #e8e8e8, // Lighter background (used for status bars, line numbers and folding marks)
+	base02: #d8d8d8, // Selection background
+	base03: #b8b8b8, // Comments, invisibles, line highlighting
+	base04: #585858, // Dark foreground (used for status bars)
+	base05: #383838, // Default foreground, caret, delimiters, operators
+	base06: #282828, // Light foreground (not often used)
+	base07: #181818, // Light background (not often used)
+	base08: #ab4642, // Red. Variables, XML tags, markup link text, markup lists, diff deleted
+	base09: #dc9656, // Orange. Integers, boolean, constants, XML attributes, markup link URL
+	base0a: #f7ca88, // Yellow. Classes, markup bold, search text background
+	base0b: #a1b56c, // Green. Strings, inherited class, markup code, diff inserted
+	base0c: #86c1b9, // Cyan. Support, regular expressions, escape characters, markup quotes
+	base0d: #7cafc2, // Blue. Functions, methods, attribute IDs, headings
+	base0e: #ba8baf, // Magenta. Keywords, storage, selector, markup italic, diff changed
+	base0f: #a16946, // Brown. Deprecated, opening/closing embedded language tags (e.g. <?php ?>)
+);

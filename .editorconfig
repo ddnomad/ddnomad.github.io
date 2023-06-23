@@ -4,6 +4,10 @@ root = true
 end_of_line = lf
 insert_final_newline = true
 
-[*.{css,html}]
-indent_style = space
+[*.{css,html,js,scss,sh,ts,tsx}]
+indent_style = tab
 indent_size = 4
+
+[*.{code-workspace,json,toml,yaml}]
+indent_style = space
+indent_size = 2

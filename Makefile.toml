@@ -1,0 +1,35 @@
+[config]
+skip_core_tasks = true
+unstable_features = ["CTRL_C_HANDLING"]
+
+[tasks.build]
+script_runner = "@shell"
+script = """
+npx next build
+"""
+
+[tasks.deps]
+script_runner = "@shell"
+script = """
+source ./scripts/utils/print.sh
+
+print info 'Installing project dependencies'
+npm install --include=dev
+
+print info 'Disabling Next.js telemetry collection'
+npx next telemetry disable
+
+print success 'Finished successfully'
+"""
+
+[tasks.dev]
+script_runner = "@shell"
+script = """
+npx next dev
+"""
+
+[tasks.start]
+script_runner = "@shell"
+script = """
+npx next start
+"""

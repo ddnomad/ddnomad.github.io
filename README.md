@@ -1,3 +1,3 @@
 # ddnomad.github.io
 
-dd's personal website stub
+dd's personal website

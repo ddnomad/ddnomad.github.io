@@ -1,0 +1,9 @@
+{
+  "extends": "next/core-web-vitals",
+  "rules": {
+    "indent": ["warn", "tab"],
+    "max-len": ["warn", { "code": 155 }],
+    "quotes": ["warn", "single"],
+    "semi": ["warn", "never"]
+  }
+}
