@@ -13,17 +13,64 @@
 
 .header {
 	align-items: flex-end;
+	border-bottom: 1px solid var(--backgroundLighterLighter);
 	display: flex;
-	height: 80px;
+	height: var(--headerHeightMobile);
 	justify-content: flex-end;
 	width: 100%;
 }
 
 .headerContent {
-	background-color: #ac0000;
-	border-bottom: 1px solid #00ac00;
+	align-items: center;
+	display: flex;
+	height: 100%;
+	margin-left: var(--bodyMarginMobile);
+	margin-right: var(--bodyMarginMobile);
+	width: 100%;
+}
+
+.headerContentLogo {
+	align-items: center;
+	display: flex;
+	flex-grow: 1;
+}
+
+.headerContentLogoBreak {
+	color: var(--backgroundLighterLighter);
+	font-family: Iosevka, monospace;
+	font-size: var(--twiceSize);
+	letter-spacing: -4px;
+}
+
+.headerContentLogoText {
+	font-family: Iosevka, monospace;
+	font-size: var(--twiceSize);
+	font-weight: 400;
+	margin-left: var(--halfSize);
+}
+
+.headerContentNavigation {
+	align-items: center;
+	display: flex;
+	font-family: Iosevka, monospace;
+	font-size: var(--onePointFiveSize);
+	margin-right: var(--bodyMarginMobile);
+}
+
+.headerContentNavigationAngleDown {
+	margin-left: var(--halfSize);
+	width: var(--baseSize);
+}
+
+.headerContentSearch {
+	display: flex;
+}
+
+.headerContentSearchIcon {
+	width: var(--onePointFourSize);
 }
 
 .main {
 	flex-grow: 1;
+	margin: var(--bodyMarginMobile);
 }

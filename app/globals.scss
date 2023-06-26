@@ -22,26 +22,45 @@
 	--base0e: #{map.get($theme, 'base0e')};
 	--base0f: #{map.get($theme, 'base0f')};
 
-	--blue: #{map.get($theme, 'base0d')};
-	--brown: #{map.get($theme, 'base0f')};
-	--cyan: #{map.get($theme, 'base0c')};
-	--green: #{map.get($theme, 'base0b')};
-	--magenta: #{map.get($theme, 'base0e')};
-	--orange: #{map.get($theme, 'base09')};
-	--red: #{map.get($theme, 'base08')};
-	--yellow: #{map.get($theme, 'base0a')};
+	--blue: var(--base0d);
+	--brown: var(--base0f);
+	--cyan: var(--base0c);
+	--green: var(--base0b);
+	--magenta: var(--base0e);
+	--orange: var(--base09);
+	--red: var(--base08);
+	--yellow: var(--base0a);
 
-	--background: #{map.get($theme, 'base00')};
-	--background-lighter: #{map.get($theme, 'base01')};
+	--background: var(--base00);
+	--backgroundLighter: var(--base01);
+	--backgroundLighterLighter: var(--base02);
 
-	--foreground: #{map.get($theme, 'base05')};
-	--foreground-darker: #{map.get($theme, 'base04')};
-	--foreground-lighter: #{map.get($theme, 'base06')};
+	--foreground: var(--base05);
+	--foregroundDarker: var(--base04);
+	--foregroundDarkerDarker: var(--base03);
+	--foregroundLighter: var(--base06);
+	--foregroundLighterLighter: var(--base07);
+}
+
+
+@mixin sizeConstants($baseUnit) {
+	--halfSize: #{$baseUnit / 2};
+	--baseSize: #{$baseUnit};
+	--onePointFourSize: #{$baseUnit * 1.4};
+	--onePointFiveSize: #{$baseUnit * 1.5};
+	--twiceSize: #{$baseUnit * 2};
+	--tripleSize: #{$baseUnit * 3};
+	--sextupleSize: #{$baseUnit * 6};
+
+	--bodyMarginMobile: var(--twiceSize);
+	--headerHeightMobile: var(--sextupleSize);
+	--logoSizeMobile: var(--tripleSize);
 }
 
 
 :root {
 	@include colors(themes.$base16-default-dark);
+	@include sizeConstants(12px);
 }
 
 

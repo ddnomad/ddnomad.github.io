@@ -1,0 +1,26 @@
+.logoBody {
+	// XXX
+}
+
+.logoBodyStyleDefault {
+	fill: var(--foreground);
+}
+
+.logoShadow {
+	stroke-width: 6px;
+}
+
+.logoShadowStyleDefault {
+	fill: var(--backgroundLighterLighter);
+	stroke: var(--backgroundLighterLighter);
+}
+
+.logo {
+	height: var(--logoSizeMobile);
+	width: var(--logoSizeMobile);
+}
+
+.root {
+	align-items: center;
+	display: flex;
+}
