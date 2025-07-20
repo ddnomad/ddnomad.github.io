@@ -7,7 +7,7 @@ on:
       - '**'
 
 jobs:
-  enforce-git-branch-name:
+  validate:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
