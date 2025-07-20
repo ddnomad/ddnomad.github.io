@@ -1,0 +1,17 @@
+name: Enforce Git Branch Name
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, edited]
+  push:
+    branches:
+      - '**'
+
+jobs:
+  enforce-git-branch-name:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Run Git branch name validation script
+        run: ./scripts/validate_git_branch_name.sh "${GITHUB_REF_NAME}"
