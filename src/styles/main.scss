@@ -1,0 +1,12 @@
+@use "./fonts.scss";
+
+
+html, body {
+}
+
+
+/* Additional style resets that are not covered by normalize.css */
+h1, h2, h3, h4, h5, h6, ul {
+    padding: 0;
+    margin: 0;
+}

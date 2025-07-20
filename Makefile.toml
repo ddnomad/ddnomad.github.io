@@ -1,0 +1,34 @@
+[config]
+skip_core_tasks = true
+unstable_features = ["CTRL_C_HANDLING"]
+
+
+[tasks.build]
+command = "./node_modules/.bin/vite"
+args = ["build"]
+
+
+[tasks.dev]
+command = "./node_modules/.bin/vite"
+
+
+[tasks.init]
+script_runner = "@shell"
+script = """
+source ./scripts/utils/print.sh
+
+print info 'Installing project dependencies'
+npm install --include=dev
+
+print success 'Finished successfully'
+"""
+
+
+[tasks.lint]
+command = "./node_modules/.bin/eslint"
+args = ["."]
+
+
+[tasks.preview]
+command = "./node_modules/.bin/vite preview"
+args = ["preview"]

@@ -1,0 +1,12 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "always",
+    "source.organizeImports": "always"
+  },
+  "editor.folding": true,
+  "editor.formatOnSave": true,
+  "fold.level": 3,
+  "shellcheck.ignorePatterns": {
+    "**/.env*": true
+  }
+}

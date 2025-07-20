@@ -1,0 +1,41 @@
+{
+  "name": "ddnomad.github.io",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "@phosphor-icons/react": "*",
+    "i18next": "*",
+    "i18next-browser-languagedetector": "*",
+    "i18next-http-backend": "*",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-i18next": "*",
+    "react-router": "*"
+  },
+  "devDependencies": {
+    "@eslint/js": "*",
+    "@types/node": "*",
+    "@types/react": "*",
+    "@types/react-dom": "*",
+    "@vitejs/plugin-basic-ssl": "*",
+    "@vitejs/plugin-react": "*",
+    "eslint": "*",
+    "eslint-plugin-react-dom": "*",
+    "eslint-plugin-react-hooks": "*",
+    "eslint-plugin-react-refresh": "*",
+    "eslint-plugin-react-x": "*",
+    "globals": "*",
+    "husky": "*",
+    "normalize.css": "*",
+    "sass": "*",
+    "typescript": "*",
+    "typescript-eslint": "*",
+    "vite": "*",
+    "vite-plugin-svgr": "*",
+    "vite-tsconfig-paths": "*"
+  }
+}

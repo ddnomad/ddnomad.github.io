@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+
+function main() {
+    scripts/validate_git_branch_name.sh
+}
+
+
+main "#@"

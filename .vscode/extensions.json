@@ -1,0 +1,17 @@
+{
+  "recommendations": [
+    "alpha4.jsonl",
+    "arcanis.vscode-zipfs",
+    "christian-kohler.npm-intellisense",
+    "christian-kohler.path-intellisense",
+    "davidanson.vscode-markdownlint",
+    "dbaeumer.vscode-eslint",
+    "editorconfig.editorconfig",
+    "felicio.vscode-fold",
+    "gruntfuggly.todo-tree",
+    "redhat.vscode-yaml",
+    "timonwong.shellcheck",
+    "usernamehw.errorlens",
+    "yzhang.markdown-all-in-one"
+  ]
+}
