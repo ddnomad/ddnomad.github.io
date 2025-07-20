@@ -1,6 +1,8 @@
-import { StrictMode } from 'react';
-import { createRoot } from 'react-dom/client';
-import { BrowserRouter, Route, Routes } from 'react-router';
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+import { BrowserRouter, Route, Routes } from "react-router";
+
+import { HomeView } from "@/views";
 
 import "normalize.css";
 
@@ -18,7 +20,7 @@ function main() {
         <StrictMode>
             <BrowserRouter>
                 <Routes>
-                    <Route path="/" element={<h1>Hello, world!</h1>} />
+                    <Route path="/" element={<HomeView />} />
                 </Routes>
             </BrowserRouter>
         </StrictMode>

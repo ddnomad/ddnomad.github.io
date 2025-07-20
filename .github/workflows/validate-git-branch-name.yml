@@ -1,4 +1,4 @@
-name: Enforce Git Branch Name
+name: Validate Git Branch Name
 on:
   pull_request:
     types: [opened, synchronize, reopened, edited]
